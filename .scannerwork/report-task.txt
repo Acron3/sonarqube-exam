@@ -1,0 +1,6 @@
+projectKey=express-example
+serverUrl=http://localhost:9000
+serverVersion=25.7.0.110598
+dashboardUrl=http://localhost:9000/dashboard?id=express-example
+ceTaskId=9d982e54-a7df-418b-825e-106987a7a6cb
+ceTaskUrl=http://localhost:9000/api/ce/task?id=9d982e54-a7df-418b-825e-106987a7a6cb
