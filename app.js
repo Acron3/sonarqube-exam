@@ -12,17 +12,17 @@ app.get('/', (req, res) => {
 });
 
 // Route untuk menambahkan dua angka dari query parameter
-app.get('/add', (req, res) => {
-  const a = parseFloat(req.query.a);
-  const b = parseFloat(req.query.b);
+// app.get('/add', (req, res) => {
+//   const a = parseFloat(req.query.a);
+//   const b = parseFloat(req.query.b);
   
-  if (isNaN(a) || isNaN(b)) {
-    return res.status(400).json({ error: 'Invalid numbers' });
-  }
+//   if (isNaN(a) || isNaN(b)) {
+//     return res.status(400).json({ error: 'Invalid numbers' });
+//   }
   
-  const result = a + b;
-  res.json({ result });
-});
+//   const result = a + b;
+//   res.json({ result });
+// });
 
 // Route dengan sedikit potensi error untuk analisis SonarQube
 app.get('/divide', (req, res) => {
